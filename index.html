@@ -5,33 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home - Game Mania</title>
+    <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="img/logo.svg" type="image/png" sizes="16x16">
     <script src="https://kit.fontawesome.com/4c7b09d1ce.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <header> 
-        <div class="container-grid">
-            <a href="index.html"><img src="img/logo.svg" alt="logo"></a>
-<!--Menu-->
-            <nav>
-              <a href="pc gamer.html">Pc game</a>
-              <a href="celular.html">Celular</a>
-              <a href="acessorios.html">Acessórios</a>
-              <a href="notebook.html">Notebook</a>
-              <a href="#">Jogos</a>
-            </nav>
-        
-        </div>
-    </header>
+        <div class="container-grid posicionamento-header">
+<!-- logo -->
+            <a href="index.html"><img src="img/logo.svg" alt="logo" width="384px"></a>
 <!-- Barra de pesquisa -->
 
-    <div class="Busca">
-        <form action="#" method="post">
-            <input type="texto" name="Pesquisar" id="Pesquisar" placeholder="Pesquisar" required>
-            <button type="submit"><i class= "fas fa-search"></i></button>  
-        </form>
-    </div>
+             <div class="barra-pesquisa">
+                <form action="#" method="post">
+                    <input type="texto" name="Pesquisar" id="Pesquisar" placeholder="Pesquisar" required>
+                    <button type="submit"><i class= "fas fa-search"></i></button>  
+                </form>
+             </div>
+             
+              
+
+<!--Menu-->
+            <nav class="menu">
+              <a href="pc gamer.html">PC GAMER</a>
+              <a href="celular.html">CELULAR</a>
+              <a href="acessorios.html">ACESSÓRIOS</a>
+              <a href="notebook.html">NOTEBOOKS</a>
+              <a href="#">JOGOS</a>
+            </nav>
+
+<!--icons de login, contato, localização e carrinho-->
+            <figure>
+                <img src="img/phone-call.png" alt="contato" width="55px">
+                <img src="img/location-pin.png" alt="localização" width="55px">
+                <a href="login.html"><img src="img/user.png" alt="login de usuario" width="55px"></a>
+                <img src="img/shopping-cart-black-shape.png" alt="carrinho" width="55px">
+            </figure>
+        </div>
+    </header>
 
 <!--Banner--> 
 

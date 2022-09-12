@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+   background-color:#A9D6F3; 
+}
+.container-grid{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.posicionamento-header {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.barra-pesquisa {
+   display: flex;
+   justify-content: space-between;
+   align-items:  center;
+   flex-basis: auto;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "roboto";
+}
